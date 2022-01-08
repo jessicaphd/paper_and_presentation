@@ -1,0 +1,332 @@
+---
+title: "Triple Dissonance: Women-Led Funds. With a Gender Lens. In Africa."
+author: "Jessica Espinoza Trujano^[University of Siegen, Germany, Jessica.ETrujano@uni-siegen.de] & Lelemba Phiri^[Gordon Institute of Business Science, University of Pretoria, Pretoria, South Africa]"
+output: 
+  pdf_document:
+   toc: true
+   toc_depth: 3
+   number_sections: true 
+bibliography: references.bib 
+link-citations: yes
+abstract: "This paper contributes to current debates in the field of entrepreneurship on the persistent gender gap in capital allocation to entrepreneurs. Drawing on recent theories of entrepreneurial belonging (Stead 2017; Birkner 2020), we conducted narrative research to gain rare insights into the gendered challenges faced by female fund managers in private equity in Sub-Saharan Africa during the fundraising process. We discover a triple dissonance between the feminine normative frames of womanhood and the male normative frames of entrepreneurship and private equity, compounded by intersectional stereotypes of Africa. Our research offers novel, exploratory insights into what has been a blind spot in the emerging field of gender-lens investing: how gender bias in capital allocation to entrepreneurs is reinforced by gender bias in capital allocation to fund managers. We conclude that the field must move beyond viewing African women as beneficiaries of empowerment and put them in power of investment decisions."
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+***Empowerment is receiving capital to grow a business.
+Power is deciding how capital is allocated and which businesses grow.*** 
+
+The gender gap in capital allocation to women entrepreneurs globally is well documented. Recent scholarship has deepened our understanding of how structural barriers and gender bias are drivers of the gender gap in entrepreneurship finance. Gender lens investing has emerged as a global trend among investors to close this gap by promoting investments in women-owned and -led businesses. This has led to an unprecedented focus among investment practitioners and policy-makers on women entrepreneurs as beneficiaries of investments. Interestingly enough, the question of who holds power over investment decisions has remained largely unchallenged. This raises the question whether the gender gap in entrepreneurship finance can be truly overcome while the gender gap on the capital allocators’ side persists. 
+
+Our research builds on recent entrepreneurship scholarship on the genderedness of entrepreneurial belonging [@stead_2017; @birkner_2020] and extends it to the challenges experienced by female fund managers in the private equity space, particularly in the fundraising process. This paper aims to offer explorative insights into the dissonance between feminine normative frames of womanhood and male normative frames of both entrepreneurship as well as private equity fund management. By so doing, we explore how the capital allocation to female fund managers reinforces the gender gap in capital allocation to women entrepreneurs. The question of how investment decisions are made and who gets to make those decisions is critical to deepen our understanding of how to build a field of gender lens investing, which is inclusive, sustainable and scalable. 
+
+Drawing on recent theories of entrepreneurial belonging [@stead_2017; @birkner_2020], we conducted narrative research with 23 female fund managers across Sub-Saharan Africa to gain rare insights into the gendered challenges faced by female fund managers in the fundraising process. We discover a triple dissonance between the feminine normative frames of womanhood and the male normative frames of entrepreneurship and private equity, compounded by intersectional stereotypes of Africa. Our research offers novel, exploratory insights into what has been a blind spot in the emerging field of gender-lens investing: how gender bias in capital allocation to entrepreneurs is reinforced by gender bias in capital allocation to fund managers. 
+
+We respond to calls for more research on the supply side of capital to investigate the persistent gender gap [@brush_2018] as well as for research focusing on women’s entrepreneurship in the global South (@yadav_2016; @leitch_2018). Our paper contributes to the current debates on gender and entrepreneurship as well as on the key question of why investors allocate significantly more capital to male entrepreneurs. Our research findings shed further light on how gender stereotypes lead investors to turn to simple heuristics leading to cognitive bias, which distort decisions on capital allocation (@balachandra_2013; @balachandra_2019; @brooks_2014; @malmstrom_2017). 
+
+
+# Theoretical framework
+
+## Gender gaps in capital allocation
+
+Women-led businesses receive only 7% of private equity (PE) and venture capital (VC) in emerging markets (IFC, 2019). A key question and ongoing debate in the entrepreneurship literature is why investors allocate significantly more capital to male than to female entrepreneurs (@balachandra_2013; @balachandra_2019; @leitch_2018). Recent entrepreneurship scholarship has advanced our understanding of unconscious gender bias in investment decision-making. Empirical studies have found investor-driven biases directly affecting the amount of capital allocated to male versus female entrepreneurs: Investors were found to use rhetoric based on gender stereotypes when evaluating entrepreneurs for investment decisions (@malmstrom_2017), ask men promotion-oriented questions and women prevention-oriented questions (@kanze_2018), and have a bias towards “attractive” male entrepreneurs (@brooks_2014). In addition to gender bias in entrepreneurship and investment discourse, scholars have investigated gender bias in the structure of capital markets including homophily among investors (@alsos_2017; @brush_2017; @brush_2019).
+
+The gender finance gap is often attributed to the fact that women are significantly underrepresented among investment decision-makers, holding only 10% of all senior positions in PE and VC firms in developed markets and 8% in emerging markets excluding China (IFC, 2019). Globally, the gender and racial gap in the fund management industry is just as sobering: Less than 1.3% of the $69.1 trillion global financial assets under management are managed by women and people of colour (@lyons_2019). 
+
+Homophily theory suggests a tendency of people to associate and bond with people who are demographically similar to them (@brashears_2008). This offers one explanation why all-men teams are four times more likely to receive venture capital from investors (who are predominantly men) than teams with even one woman (@brush_2018). It is therefore commonly theorized that gender bias in capital allocation to entrepreneurs can best be overcome by increasing women’s representation among investors and in institutional investment decision-making bodies. Indeed, female partners in PE and VC funds have been found to invest almost twice as much in women entrepreneurs than male partners (IFC, 2019). According to research by Brush et al. (2014), venture capital firms with female partners are twice as likely to invest in companies with women on the management team and three times more likely to invest in companies with a female CEO. Recent studies from the global South have shed light on intersectional biases in entrepreneurship and finance (@gonzales_2020; @gunewardena_2020).
+
+This raises the question why women’s underrepresentation in investment decision-making is so persistent. Interestingly, recent research focusing specifically on the capital allocation from institutional investors (limited partners, LPs) to fund managers (general partners, GPs) finds that this lack of diversity among fund managers is not only a pipeline problem, but that there are also systemic barriers and investor biases at play (@lyons_2019). Fund managers play a crucial role in the capital allocation to entrepreneurs, but are themselves dependent on capital allocation from investors. This suggests that gender bias in capital allocation to entrepreneurs is reinforced by gender bias in capital allocation to fund managers. 
+
+In the African context, women are particularly underrepresented in private equity with women in senior roles accounting for just 7.6% (compared to 11.8% in Asia) (@mchunu_2018). However, there is a noticeable upward trend. The number of women entering male-dominated spaces like PE and VC industry events is growing. These trailblazers are said to play an important role in breaking down gender stereotypes and barriers. While there seems to be no shortage of women entering the industry, factors like “male domination of corporate cultures, masculine leadership still considered to be the default norm, and inadequate access to female mentors” are responsible for the persistent glass-ceiling (ibid, 12). 
+
+
+## Gendered normative frames of entrepreneurship
+
+Although often presented as a gender-neutral space, entrepreneurship itself is fundamentally gendered (@ahl_2007; @henry_2016). Therefore, entrepreneurship cannot be fully analysed from a gender-neutral perspective (@ahl_2012), making a gender lens critical to fully understand dynamics in entrepreneurship and investment decisions. Following Scott (1986), gender is not only “a constitutive element of social relationships based on perceived differences between the sexes”, but also “a primary way of signifying relationships of power” (1067). 
+
+Scholars in the field of women’s entrepreneurship have long observed a masculine normative frame of entrepreneurship, privileging men as “the norm” and women as “the other” within research and practice (@bruni_2004; @ahl_2004; @ahl_2006; @birkner_2020). Consequently, entrepreneurial belonging has mostly been masculine biased (@ahl_2006; @ahl_2012; @garcia_2013; @birkner_2020), creating a dissonance between discourse on womanhood and entrepreneurship (@ahl_2002; @ahl_2006; @garcia_2013; @swail_2017). As a result, women entrepreneurs have been subordinated and stereotyped as, for example, only starting businesses in feminine gendered industries like beauty and fashion, dubbed the “pink ghetto myth” (@adler_1999). 
+
+Given persisting gender bias in private equity and roles of financial decision-making (@barber_2017; @brush_2018; @lyons_2019), masculinity is considered “the norm” and femininity “the other”, analogously to entrepreneurship. There is thus also a dissonance between the masculine normative frame of private equity and fund management on the one hand, and the feminine normative frame of womanhood on the other hand. 
+Scholarship from Sub-Saharan Africa has explored the social norms around womanhood in the regional context and shown how gendered stereotypes and social expectations about women’s role in society act as impediments to women’s entrepreneurship (@adom_2018; @etim_2019). Studies with an intersectional lens found that entrepreneurship is associated with whiteness, which has led black women entrepreneurs to experience a sense of double alienation (@dy_2017; @nambiar_2020). South African scholars have shown how race and gender are drivers of the entrepreneurial finance gap (@musk_2017).
+
+Recent entrepreneurial literature has explored how women entrepreneurs accomplish entrepreneurial belonging and how they “do” and “redo” gender in a male-dominated entrepreneurial context (@birkner_2020; @garcia_2013). Birkner (2020) analyses how women entrepreneurs need to continuously balance the state of belonging “betwixt and between” (@turner_1967) feminine normative frames of womanhood and masculine normative frames of entrepreneurship. She coined the term “entrepreneurial liminal gender states” to describe the state of continuously balancing whether – in the words of Stead (2017, 61) – “to fit in or to feel out of place, to be an insider or to be excluded, to feel accepted or to feel marginalized”. 
+
+## Entrepreneurial belonging and female fund managers
+
+The study of female fund managers and the concept of belonging is particularly interesting, due to the double dissonance between feminine normative frames of womanhood and masculine normative frames of both entrepreneurship and financial decision-making. For fund managers, the fundraising process, in particular, is a key moment of truth and when the stakes are the highest: to be or not to be a fund manager is determined by the ability to raise a fund that is subsequently managed. While being an entrepreneur does not necessarily require having access to capital (although access to capital is, of course, a key ingredient for entrepreneurial growth and an important aspect of belonging to the entrepreneurship community), a private equity fund manager, by definition, is a person who manages a fund. Therefore, the whole identity of a fund manager is contingent on being able to raise enough capital for a fund. The fundraising process is therefore the phase in the journey of a fund manager when his or her belonging is most challenged. Interestingly then, gender bias in capital allocation to female fund managers is not only a threat to their entrepreneurial success but also to their identity as a fund manager. 
+
+Prior research cited above suggests that the double dissonance of womanhood and entrepreneurship as well as financial decision-making may cause investors to turn to heuristics leading to cognitive bias in their assessment of female fund manager, which in turn may distort their decisions on capital allocation. This is likely to be particularly pronounced where female fund managers seek to raise their own fund with their own firm rather than raising and managing a fund on behalf of an established private equity firm. An interesting question that emerges then is how female fund managers perform belonging once confronted with gendered challenges in their interactions with investors. Furthermore, female fund managers with a gender lens investing strategy may experience even greater challenges in their interaction with investors who may not only be biased towards the female fund manager herself but also towards the strategy of investing in women entrepreneurs. 
+
+This paper focuses on two central research questions:
+
+*	What are the gendered challenges female fund managers in Sub-Saharan Africa experience during the fundraising process in the male-dominated field of private equity? 
+*	How is their belonging challenged when female fund managers seek to disrupt the way capital is allocated to entrepreneurs?
+
+# Research design and method
+
+We draw on recent theory of belonging developed by Stead (2017), conceptualizing entrepreneurial belonging as relational, dynamic and gendered, to investigate the challenges encountered by female fund managers in Sub-Saharan Africa during the fundraising process.  
+
+We chose an exploratory qualitative research design to gain rare insights into the challenges faced by female fund managers during the fundraising process. By so doing, we respond to calls for qualitative studies using narrative analysis to explore women’s performing of belonging in entrepreneurial careers (@stead_2017). Narrative analysis often reveals turning points in the journey of the protagonist and is particularly well-suited to investigate how female fund managers experience challenges in the fundraising process and perform belonging in a male-dominated field. 
+
+We conducted narrative interviews (@creswell_2017; @riessman_2008) with 23 female fund managers in Sub-Saharan Africa (representing 21 funds, including two funds with co-managers). To our knowledge, there is no public data available on the total number of female fund managers in Africa. We conducted a mapping of the universe of female fund managers on the continent through desk research, direct outreach to fund manager networks, and snowball sampling. We were able to identify a total of 28 women-led funds in the private equity space across Sub-Saharan Africa and we aimed to interview as many of them as possible. Nine female fund managers in our sample are from South Africa, six from West Africa (Nigeria, Ghana, Senegal, Côte d’Ivoire) and five from East Africa (based in Kenya, often with regionals strategies). The majority of female fund managers in the region are on the journey to raise their own fund (rather than manage a fund for an established private equity firm) and are still in the fundraising process. Table 1 shows key characteristics of the female fund managers included in our sample. It illustrates the diversity in investment strategies from venture capital to growth equity to turnaround as well as the diversity of target investee companies both in terms of size and sector. Following the recommendation of several female fund managers, we also conducted a narrative interview with an established male fund manager who plays a key role in supporting female fund managers across various countries in Sub-Saharan Africa as a male ally. 
+
+Each interview took between 45 and 120 minutes, was conducted by video or audio call, and recorded. We conducted thematic data analysis following Riessmann (2008). All interviews were transcribed verbatim and analysed with the qualitative data analysis software NVIVO. Each interview served as a stand-alone entity to explore individual perspectives on the experiences and challenges on the journey of female fund managers and the performance of belonging. In a second stage, we analysed cross-case patterns to identify commonalities of their experiences with investors and peers, challenges in the fundraising process, as well as strategies and tactics of performing belonging.
+
+# Findings 
+
+## Motivation to enter “a man’s world”
+
+Our exploratory research revealed three main reasons why women decide to become fund managers and raise their own funds in Sub-Saharan Africa. What they all have in common is the motivation to change the way capital is invested in local entrepreneurs. They have all observed how women entrepreneurs, and in some regions (South Africa and East Africa) black entrepreneurs, as well as certain sectors have received significantly less capital from private equity and venture capital funds. As fund managers who make those investment decisions, they want to change that dynamic. 
+
+> *“And it struck me that actually I hadn't invested in women. (…) I found I was (…) looking in the same  places where everyone else in the field was looking. And so therefore realized that we had a huge blind spot (…)”*
+> `r tufte::quote_footer('--- (Nigerian female fund manager)')`
+
+A second prominent reason for starting their own fund is that women have faced a glass ceiling in existing fund management firms. Those who worked in other established funds before deciding to raise their own fund cited that they were doing all the work and not getting sufficient recognition in terms of financial reward or title. 
+
+> *“I've actually been able to be in institutions that have given me an opportunity to learn amazing things (...), but somehow, I can't break the ceiling. And the ceiling is: you don't belong in that decision-making role in finance. You belong, if you're maybe supporting somebody in that decision-making role. But it shouldn't be you.”* 
+> `r tufte::quote_footer('--- (Kenyan female fund manager)')`
+
+> *“There are a lot of women doing the work of partner, but they are just not carrying the title.”*
+> `r tufte::quote_footer('--- (Ghanaian female fund manager)')`
+
+The third reason commonly cited is discontent with the investment focus, culture, and way of doing business at established firms, both in terms of doing the right things (untapped market opportunities) and doing things the right way (ethics). Related to this, several fund managers cited the motivation “to build something”. By establishing their own funds, they want to become role models for other women to enter the space, and to transform the industry.
+
+> *“And so part of my argument of getting into the space was really shaking things up and saying ‘I'm here and I'm not going anywhere, and we have to start doing things differently.’”*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+ 
+Female fund managers who decided to raise their own funds more recently were indeed inspired by these earlier role models:
+
+> *“When I see women like [African female fund manager], I'm really excited, and she’s one of the women that really inspired me to do this. She started and she's really built her firm very well.”*
+> `r tufte::quote_footer('--- (West African female fund manager)')`
+
+Entering the field of private equity as a female fund manager is a challenging and lonely endeavour. Female fund managers in Sub-Saharan Africa commonly describe the field as “pale male” and “a man’s world”:
+
+> *“It's very hard and it's still a man's world, not a women's world, let alone a black females world.”*
+> `r tufte::quote_footer('--- (West African female fund manager)')`
+
+On the investors side, a small and heterogenous group of men, often white, who come from a similar socioeconomic background and have often studied at the same universities dominate the decision-making around capital allocation to fund managers.
+
+> *“So you're dealing with mostly men, mostly white, who've been very successful.”*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+## Moment of truth: the fundraising journey
+
+As we laid out above, the fundraising journey is a key moment of truth when the belonging of female fund managers is most challenged. While first-time fund managers in general face particular challenges during fundraising, female fund managers have observed some notable gendered differences, which can be clustered along three dimensions summarized with illustrative quotes in Figure 2.
+
+First, private equity spaces where relationships are built and deals are discussed are male-dominated, tend to be closed circles, and are often in the form of social gatherings which only insiders know of or are invited to. 
+
+Second, female fund managers receive gendered questions and gendered comments from investors. This includes risk-oriented questions (Kanze et al. 2018) and remarks stereotyping female fund managers as wives and (potential) mothers (Malmström et al. 2017).
+
+Third, they observe how male peers with a similar career trajectory succeed in raising their funds faster, because their track record and their character are judged differently. Closely related to this point, female fund managers observe a general preference of investors to allocate capital to those who are similar to them. Furthermore, they note that investors are not used to seeing women in financial decision-making roles, so male fund managers are seen as “the norm” and women as “the other”. 
+
+> *“The majority of them are white males in their 40s, 50s, 60s. They see the same investment managers raising more funds and keep allocating to the same guys. There's just no transformation. So there are almost no female-owned fund managers that are being supported, let alone black-owned fund managers being supported.”* 
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+
+## The pink ghetto myth
+
+### Diversity of investment strategies 
+
+The investment strategies and target companies of female fund managers are very diverse, as illustrated by Table 1. The majority of female fund managers has an explicit gender-lens strategy to invest in businesses that are women-owned or -led, create quality employment for women, and/or empower women along the value chain. 
+
+Many adopt a gender lens when sourcing investments, others focus more on transforming the business with a gender lens during the value creation phase in the portfolio after the initial investment is made. The latter is especially the case where the investment strategy focuses on larger corporates or on transforming sectors which have traditionally been male dominated. 
+
+> *“I want to get women into ownership of sizeable SMEs, not just small SMEs. (…) What I'm saying is: I'm going to create them in the same way that South Africa created black ownership through legislated black economic empowerment share target. That's my thinking, to use a similar concept and create women ownership in the same way.”*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+Beyond gender, female fund managers are also intentional in applying a racial equity lens to their investment approach, especially in markets where capital allocation has traditionally been skewed towards white and/or expatriate entrepreneurs (predominantly Southern Africa and East Africa, less so in West Africa). 
+
+Female fund managers in particularly male-dominated investment spaces, such as venture capital for tech companies, have started to notice how women entrepreneurs emerge and become more visible in those fields:
+
+> *“We are starting to see a shift in terms of female-started organizations, specifically maybe in the last 12 months, that are approaching us because we, you know, we look like them, we sound like them.”*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+
+### Gendered dissonance: a single silo
+
+Despite this diversity in investment strategies and target investee companies, female fund managers have experienced gendered dissonances as soon as they mention any kind of “gender lens” to investors. These dissonances can be broadly structured into three categories (Figure 3).
+
+First, the combination of private equity (male normative frame) and gender lens (female normative frame) triggers a dissonance in relation to the status quo of “the norm” of “how private equity works”. To resolve this dissonance and reconcile the investment proposition with the status quo, investors assign certain tags or labels to female fund managers as soon as they mention a gender lens. 
+
+> *“Back then it was: What is this thing? Is it charity? Is it philanthropy? Is it hard core finance?”* 
+> `r tufte::quote_footer('--- (Nigerian female fund manager)')`
+
+Second, these tags trigger stereotypes, which lead investors to focus more on feminine normative frames than on the actual investment strategy. Female fund managers are subsequently all put into the same silo, or “pink ghetto”, irrespective of whether their investment strategy is venture or growth, and whether their target investee companies are micro, SMEs or corporates. 
+
+> *“They basically pigeonhole female fund managers. They want you to be raising a small fund (…), so when you say to them: ‘Guys, I actually want to raise a significant fund’, they actually discourage you from doing that. (…) because they also pigeonhole you under ‘impact’. And for them ‘impact’ is ‘you're supporting SMEs’. (…) So, and this is where they see female fund managers. The big funds are for the boys.”* 
+> `r tufte::quote_footer('--- (South African female fund manager pitching to international investors)')`
+
+Third, because the investors are so focused on the gender lens and its dissonance with “the norm” of private equity, and are quick to assign labels to gender-lens funds, they spend less time in the conversation focusing on the business case and the numbers, and therefore quickly dismiss the investment strategy altogether. 
+
+> *“He was like: ‘that's not going to make any kind of money’. That particular transaction he said was not going to make any money is the one that we exited at 12x money. He just didn't believe us.”*
+> `r tufte::quote_footer('--- (Pan-African female fund manager)')`
+
+Because the investment proposition focuses on a blind spot of the industry and is different from “the norm” of what investors have traditionally seen, investors’ lack of familiarity with women-led businesses combined with the double gendered dissonance of “women” and “fund managers” as well as “women” and “entrepreneurship”, compounded by stereotypes about “Africa”, investors are unable to grasp the business case: 
+
+> *“They [international investors] were not used to two strong African women going to market and saying: “we're trying to raise a 100 million USD to invest in other women in Africa’, because they thought that African women in the main sell tomatoes on the side of the road. Yes, we've got lots of women selling tomatoes and peanuts on the side of the road, but we also have lots of women that are running substantial businesses, scalable businesses and businesses that can actually become global businesses for that matter. (…) the returns that we're promising are similar or even superior to the returns that you would get from traditional private equity players. (…) And a lot of European LPs couldn't get it. Americans couldn't get it. (…) we spoke to the whole world and they just couldn't fathom what we meant by ‘it makes business sense’.”* 
+> `r tufte::quote_footer('--- (Pan-African female fund manager)')`
+
+One of the first female fund managers to enter the space and pitch a gender-lens strategy to investors recalls how the feedback she received from investors was even at odds with the private equity norm, which places significant emphasis on wealth and fancy clothes. To resolve the gendered dissonance and be congruent with the “pink ghetto” label (rather than with the private equity norm), she was advised to conceal her professional identity:
+
+> *"We were literally told: ‘don't dress up so smartly when you're presenting to investors, because it doesn't marry well with the focus area that you are talking about.’ It was almost like we should be dower and dull, and I remember we actually asked one of the investors who had given that feedback that: ‘Are you saying that we're not poor enough? Would you tell a man that his suit looks too tailored?'"*
+> `r tufte::quote_footer('--- (West African female fund manager)')`
+
+This suggests the gendered dissonance for investors was so strong that modelling the private equity norm was not even conceived to be within the realms of possibility; instead, the fund manager was advised to model the “pink ghetto myth”, which in an African context implied “women in poverty”. 
+
+Consequently, a major theme that emerged from our research is that female fund managers regularly experience how both local and international investors try to keep them small. This even holds true for female fund managers who are modelling the norm, that is, they are raising funds with a target size above $100 million, invest in corporates with a growth strategy, and have a track record in this investment segment. 
+
+> *“I mean, he said to us: ‘No, no, no, no, no, female – even though you guys have got this track record, you've got a balance sheet, a huge balance sheet of over 200 million USD. But actually, we think that you guys would be better off applying for the SME fund bucket.’ (…) We said: ‘No. Actually, we are not going to be applying for that pot. (…) We want to raise a fund of 100-150 million USD. Therefore, sorry, we're not now going to change our strategy just to suit you, because you're seeing a bunch of women and you've got this impact pool of funds and you think that impact, SME, women all go together.’”*
+> `r tufte::quote_footer('--- (South African female fund manager pitching to international investors)')`
+
+As a result of the gendered nature of the challenges faced in the fundraising process, female fund managers report that it takes them unusually long to raise their funds and the majority are still on the journey. 
+
+
+## Tempered disruption: re-defining how capital should be allocated
+
+Our research revealed fascinating strategies and tactics female fund managers across the continent employ to enter male-dominated spaces, build networks, and secure meetings. These mirror the five forms of belonging identified by Stead (2017) for women entrepreneurs: by proxy, concealment, modelling the norm, identity-switching, and, above all, tempered disruption. We also find that these strategies of performing belonging are shaped by intersecting factors including gender, race, ethnicity, religion, and (perceived) motherhood. We will elaborate on those in a separate paper. In this section we focus on the key highlights of performing belonging, which are directly related to disrupting the way in which capital is allocated to entrepreneurs.
+
+Female fund managers have long been, or have quickly become, familiar with the contemporary rules of the game and are able to model the norm when necessary. But given their motivation to raise their own fund in the first place (as described earlier), they prefer to consciously do things differently, engaging in tempered disruption: redefining who and what a fund manager is and how capital should be allocated. 
+
+In response to the gendered dissonance, which they have experienced during fundraising, they have developed sophisticated strategies to reposition their investment proposition in a way that resonates with investors. By doing so, they model the norm in their language and pitching approach, but stay true to their gender-lens investment strategy and their purpose of doing things differently. In practice, this is often a balancing act. Those who are too disruptive pay the price by seeing their reputation and credibility adversely affected, getting bullied and being denied access to spaces and networks that are critical for success. Those who strike the right balance between modelling the norm and disruption, by *tempering* their disruption, often experience turning points in their journey and achieve milestones of belonging.
+
+A female fund manager from South Africa narrated how she was invited to speak at a major private equity conference. At that time, there was a specific gender justice incident in the country she was very upset about and which to her was clearly linked to the high levels of inequality in the country and the lack of diversity in financial decision-making. One of her female investor partners encouraged her to use the speaking opportunity for disruption, but to temper it by employing a language that models the norm:
+
+> *“And she said: ‘you've got an opportunity to speak on such a platform where you can actually make a difference. But you have to understand that pissing them off doesn't make a difference. And so how do you speak to them in their language, which is money and returns?’”* 
+
+Her speech subsequently focused on the missed opportunity of investing in underrepresented entrepreneurs and became a turning point in her journey. Right after the speech, she was invited to a closed space (insider network) of male peers and investors. Reflecting on how she achieved belonging by framing equality in the language of investments, she explained how she repositioned herself in the market. This repositioning from “feminist” to “investor” can be interpreted as identity switching.
+
+> *“I think it moved my pitch, even my positioning, from a crusader black feminist to an investor. I got into the space. And before I was like: ‘you need to be investing in women’ – more like that, just the crusader black feminist, you know, making noise in the industry. But now it was like ‘aha’ - actually seeing the money in this place.”*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+A key theme which emerged from our research is the concept of “finding your own voice” to achieve belonging through authenticity and the courage to do things differently. Although they tactically employ the language of their negotiation partner to achieve belonging and gain legitimacy, female fund managers redefine what it means to be a fund manager and reshape the way capital is allocated to entrepreneurs. While the substance is disruptive, this disruption is *tempered* by employing a language that models the norm. Rather than fitting the traditional profile of who counts as a fund manager, they seek to break out of predefined siloes:
+
+> *“I've been very deliberate in making sure that nobody can pin me into any specific pot. Others call me a private equity player, because if I have to wear that hat, I do. Others call me a VC player. Others call me an accelerator, whatever. (…) [A]s a woman, my attitude has been to say: this country needs to achieve its full potential and we need to do what is necessary for us to achieve our full potential. And that has then meant that we cannot allow ourselves to be siloed, but rather saying: this is the problem and it requires a multipronged strategy to solve.”* 
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+Achieving belonging through authenticity and their own voice in the space has allowed them to increasingly challenge the status quo: 
+
+> *“I actually challenged the president of [large development bank] on this, because I would be on different forums with him. And he would always talk about ‘we've invested in [name of women-led fund]’. So I said to him: ‘you know, Africa has almost 500 million women. Every time I see you, you talk about investing in only one fund.’ And we actually became friends through that, because he said to me, ‘that is so true.’”*
+> `r tufte::quote_footer('--- (West African female fund manager)')`
+
+Those female fund managers who entered the space first experience an enormous pressure to pave the way for other women and a responsibility to promote change in the industry:
+
+> *“I said to her: it doesn't matter how you get into the space, just make sure that you're doing something right with what you've been given. Just make sure you do something right.”*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+> *“[W]hat we're doing is beyond just fundraising, we're also building a whole sector in Africa. I tell you, it's a very daunting responsibility that those of us who are the first to lead women-led funds are actually setting an example.”*
+> `r tufte::quote_footer('--- (West African female fund manager)')`
+
+> *“I'm hoping that we're the first and only women who will ever have to go through that kind of experience (…) It does take pioneers to create a path for others and hopefully make the path a bit smoother for those that follow. (…) it has not been an easy journey. (…) It was about changing the mindset of the world.”*
+> `r tufte::quote_footer('--- (Pan-African female fund manager)')`
+
+A growing number of female fund managers entering the space and engaging in tempered disruption has brought about early signs of change in the wider industry, extending to the way their male peers and investors begin to talk differently about gender-lens investing:
+
+> *“And I was quite surprised to hear even the male guys on the podium talking about investing with a gender lens or looking at gender diverse management teams.”*
+> `r tufte::quote_footer('--- (Pan-African female fund manager)')`
+
+> *“I'm beginning to see a change among foreign investors who are excited to see (…) a woman in a role like I am [in], because of all the advocacy for gender equality.”*
+> `r tufte::quote_footer('--- (West African female fund manager)')`
+
+However, despite the advances made through tempered disruption to achieve belonging and change the narrative on gender-lens investing as a business case, the fundraising journey of female fund managers across the continent continues. 
+
+The new wave of interest in gender lens investing among local and international LPs has so far not translated into more capital being allocated to female fund managers.
+
+> *“[T]hey want to support the end-businesses that are owned by women, but they don't trust that women can allocate capital to those businesses. Yeah, no, it's crazy.”*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+While investors are increasingly intrigued by the idea of more diverse fund manager teams and investing with a gender and racial equity lens, they are still reluctant to put money into the hands of female fund managers and let them be in charge of investment decisions.
+
+# Discussion
+
+## Disrupting the triple dissonance
+
+Female fund managers entering the male-dominated space of investors (LPs) and fund managers (GPs) who allocate capital largely to male entrepreneurs, experience different layers of gendered dissonance. The first layer is being a woman in the role of a fund manager, which has traditionally been held by men. The second layer of dissonance is the gender lens they add to their investment strategies, which is closely related to the dissonance of the feminine normative frame of “women” and the male normative frame of “entrepreneurship” (owners of investable businesses). The third layer of dissonance stems from the combination of a female fund manager, investing with a gender lens, and investing in black African entrepreneurs. This third dissonance is particularly pronounced in interactions with international investors who perceive a dissonance between “Africa” and “investable businesses” (especially women-led businesses) as well as in a local South African and East African context, where investments have traditionally been skewed towards white and expatriate (male) entrepreneurs. 
+
+> *“So I found that as women - for us it's a double tragedy, you know. You are discriminated against because you are women and therefore you can't possibly do private equity well. (…). And then on top of that, you're doing it [investing with a gender lens] in Africa, you know, the dark continent.”*
+> `r tufte::quote_footer('--- (Pan-African female fund manager)')`
+
+Female fund managers faced significant resistance when they first presented the gender lens of their investment strategies to local and international investors. They have consequently developed sophisticated strategies and tactics to achieve belonging by modelling the norm in how they present investment opportunities (business case framing), while practicing tempered disruption in the way investment decisions are made and capital is allocated to entrepreneurs. By so doing, they have inspired a broader movement in the “mainstream” industry with male peers and investors increasingly intrigued by the concept of gender-lens investing and the untapped business opportunity. 
+However, the growing interest among local and international investors in gender-lens investing has not yet translated into more capital being allocated to women-led funds. Although female fund managers have reached important milestones in belonging, such as opportunities to pitch to investors, speak on panels at key industry events, and co-invest with male peers, their fundraising challenges remain largely unchanged.
+
+> *“Everyone is cognizant of the fact that that has to change. So everyone's kind of entertaining meetings with potential transformed or more diverse teams. But what they're battling with is to give you the money.”*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+> *“But when it comes to cash, it's not there.”*
+> `r tufte::quote_footer('--- (West African female fund manager)')`
+
+## Empower versus power
+
+Our exploratory research has revealed a significant blind spot in the emerging field of gender-lens investing. Gender-lens investing has women’s empowerment at its centre, yet has a blind spot when it comes to power. 
+
+> *“So the reason why women entrepreneurs are not being funded is because women fund managers are not being funded. Because all of the capital allocators [LPs] are men.”*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+The rise in gender-lens investing has led investors to focus attention on the promotion of women’s empowerment through investments where women are the beneficiaries rather than the custodians of empowerment. This approach bears the risk of ignoring the underlying causes of the gender gap in capital allocation to entrepreneurs. It risks perpetuating gendered stereotypes which assume all women entrepreneurs have micro and small businesses, and it risks ignoring the diversity of women entrepreneurs by subsuming all women in a “pink ghetto” silo.
+
+While there is now a growing focus on women entrepreneurs as beneficiaries of investments, the industry is still hesitant when it comes to putting money into the hands of female fund managers and giving them the power to make investment decisions. 
+
+> *“[T]hat's the main thing I would say – that there seems to be a lack of trust in giving the allocating power to managers who are women."*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+The gatekeepers of change at scale are the investors (LPs) who allocate capital to fund managers who, in turn, invest in entrepreneurs. It is at this level where female fund managers see the greatest need for transformation. 
+
+> *“From the capital allocators perspective, (…) there's no diversity, no transformation. So you've got people that have been working for years allocating capital to established private equity fund managers. And the same people are now being tasked with allocating capital to new and emerging fund managers, using the same type of criteria, mindset, you know, there is no change.”*
+> `r tufte::quote_footer('--- (South African female fund manager)')`
+
+A field of gender-lens investing that is sustainable and scalable must be inclusive and locally rooted. It is therefore crucial to expand the focus from African women as beneficiaries of empowerment to them holding power over investment decisions. 
+
+> *“So the question is: What more are we going to allow women to do in the investment industry?”*
+> `r tufte::quote_footer('--- (East African female fund manager)')`
+
+## Avenues for future research 
+
+Given the scarcity of literature on female fund managers in general, and in the global South in particular, we chose an exploratory research design to discover key themes of the gendered challenges experienced by female fund managers on their fundraising journey. These novel insights advance our understanding of how such gendered challenges, in turn, shape how capital is allocated to entrepreneurs. With this paper, we have responded to calls for more research on (i) women’s entrepreneurship in the global South, (ii) the supply side of capital to investigate the persistent gender gap, as well as (iii) more qualitative and narratives-based research in the field of entrepreneurship. 
+
+Our research deliberately approaches the question of capital allocation to female fund managers and to women entrepreneurs from the perspective and lived experience of female fund managers. Future research may employ additional research methods to investigate the reasons behind the gender gap in capital allocation from institutional investors to fund managers in further depth. From an intersectional perspective, the narratives of the female fund managers in our sample reflected a high level of awareness of gender and racial bias in capital allocation to fund managers and entrepreneurs, and the desire to change this. Irrespective of race and ethnicity, female fund managers noted that the challenges in the investment industry are even greater for Black female fund managers with the exception of West Africa where race and expatriate status do not appear to play the same role as in South and East Africa. White female fund managers in South and East Africa in our sample demonstrated investment strategies with a strong and intentional focus on businesses with Black women ownership and leadership. It would be interesting to investigate from an intersectional feminist perspective whether this holds true in other markets. For example, whether white female fund managers in Brazil show the same level of awareness of racial bias and allocate more capital to Black women entrepreneurs.
+
+With this paper, we aim to contribute to future theory building and practice of gender-lens investing. Our research offers novel, exploratory insights into what has been a blind spot in the emerging field of gender-lens investing, namely how the question of who holds power over investment decisions is closely related to the question of how the gender gap in capital allocation to entrepreneurs can be overcome. 
+
+Novel insights from this paper offer a number of avenues for future research. 
+
+*	Research exploring how female fund managers perform entrepreneurial belonging across the spectrum of stages along their journey 
+*	Direct research with investors making decisions on capital allocation to fund managers, including field-based or experimental studies
+*	Studies with larger sample sizes on female fund managers in other geographies to identify cross-regional patterns for theory building
+
+# Annexes
+
+Table: Sample
+
+| Case| Sub-Region          | Fundraising Stage  | Investment Strategy  |Target Fund Size |
+|----:|--------------------:|-------------------:|---------------------:|:----------------|
+|    1| Pan-African focus   | First close secured| Growth Equity        | $100M           |
+|    2| West Africa: Nigeria| Pre-First close    | Between VC and PE    |  $20M           |
+|    3| West Africa: Nigeria| Anchor secured     | Growth Equity, Mezz  |  $30M           |
+|    4| West Africa: Ghana  | Pre-First close    | Equity, Mezz         |  $20M           |
+|    5| West Africa: Senegal| Pre-First close    | Seed, Growth         |  $30M           |
+|    6| West Africa: Senegal| Pre-First close    | Venture              |  $20M           |
+|    7| East Africa: Kenya  | Pre-First close    | Venture to Growth    |  $50M           |
+|    8| East Africa: Kenya  | Anchor secured     | Growth Equity, Mezz, Debt  |  $50M     |
+|    9| East Africa: Kenya  | Pre-First close    | Early Growth, Mezz   |  $10M           |
+|   10| East Africa: Kenya  | 3 funds closed     | Seed to Growth       |  >$10M          |
+|   11| East Africa: Kenya  | Pre-First close    | Venture to Growth    |  $50M           |
+|   12| South Africa        | First close secured| Pre-Seed, Seed       |  $75-100M       |
+|   13| East Africa: Kenya  | First close imminent| Growth              |  $100M          |
+|   14| South Africa        | First close secured| Growth               |  $100M          |
+|   15| South Africa        | Pre-First close    | Rescue-and-build     |  $30M           |
+|   16| South Africa        | First close imminent| Growth, Buyout      |  $65-100M       |
+|   17| South Africa        | Pre-First close    | Venture              |                 |
+|   18| South Africa        | First close        | Venture              |  $20M           |
+|   19| South Africa        | First close secured| Seed to Series A     |  $5.5M          |
+|   20| South Africa        | Pre-First close    | Growth               |  $40M           |
+|   21| South Africa        | First close        | Series A & follow-on |  $20-35M        |
+
+
+
+# References
+
+
+
