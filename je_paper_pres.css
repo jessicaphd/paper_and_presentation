@@ -1,0 +1,63 @@
+h2{
+  color: coral;
+  margin-top: 0;
+  font-size: 1.6em;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration: italic
+}
+
+h1,h3, h4{
+  font-weight: bold;  /*bold headings*/
+  text-align: center; /*center headings*/
+}
+
+  table {
+    margin: .3em;
+    width: 290px;
+  }
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+@import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic);
+
+body {
+  color: #444;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 0.4em;
+  margin: 0 auto;
+  max-width: 48rem;
+  line-height: 1; 
+  padding: .20rem;
+  background-color: darkslategrey;
+  color: azure
+}
+
+blockquote {
+  margin: 0;
+  border-left: 5px solid #7a7a7a;
+  font-style: italic;
+  padding: 1.33em;
+  text-align: left;
+}
+
+.gdbar img {
+  width: 80% !important;
+  height: 80% !important;
+  margin: 8px 8px;
+}
+
+ img {
+    page-break-inside: avoid;
+  }
+
+ img {
+    max-width: 100% !important;
+  }
+
+.gdbar {
+  width: 346.81px !important;
+  height: 100px !important;
+}
+
